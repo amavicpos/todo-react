@@ -1,6 +1,6 @@
 # To-DoList
 
-Welcome to To-DoList! This repository contains the code for a web application called To-DoList, a platform for users to save tasks. Visit it at: [---](https://amavicpos.github.io/todo-react/).
+Welcome to To-DoList! This repository contains the code for a web application called To-DoList, a platform for users to save tasks. Visit it at: https://amavicpos.github.io/todo-react/.
 
 ## Table of Contents
 
