@@ -40,7 +40,11 @@ function App() {
       {todos.length !== 0 && (
         <ul
           id="list"
-          style={{ listStyleType: "none", overflowY: "auto", height: "50vh" }}
+          style={{
+            listStyleType: "none",
+            overflowY: "auto",
+            maxHeight: "50vh",
+          }}
         >
           {todos.map((todo, index) => {
             return (
