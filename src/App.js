@@ -34,22 +34,45 @@ function App() {
   return (
     <div className="App">
       <h1>
-        <span className="todo-text">To-Do</span> <span>List</span>
+        <span className="todo-text">To-Do</span>
+        <span>List</span>
       </h1>
-      <ul id="list" style={{ listStyleType: "none" }}>
-        {todos.map((todo, index) => {
-          return (
-            <li key={index}>
-              <input className="checkbox" type="checkbox"></input>
-              <span>{todo.text}</span>
-              <button onClick={() => deleteTodo(index)}>Delete</button>
-            </li>
-          );
-        })}
-      </ul>
+      {todos.length !== 0 && (
+        <ul
+          id="list"
+          style={{ listStyleType: "none", overflowY: "auto", height: "50vh" }}
+        >
+          {todos.map((todo, index) => {
+            return (
+              <li key={index}>
+                <input
+                  className="checkbox"
+                  type="checkbox"
+                  onChange={() => changeCheck(index)}
+                  style={
+                    todo.checked
+                      ? { accentColor: "grey" }
+                      : { accentColor: "none" }
+                  }
+                ></input>
+                <span
+                  style={
+                    todo.checked
+                      ? { textDecoration: "line-through" }
+                      : { textDecoration: "none" }
+                  }
+                >
+                  {todo.text}
+                </span>
+                <button onClick={() => deleteTodo(index)}>Delete</button>
+              </li>
+            );
+          })}
+        </ul>
+      )}
       <section id="input">
         <input
-          className="checkbox"
+          className="input-field"
           type="text"
           value={text}
           onChange={handleTextInput}
