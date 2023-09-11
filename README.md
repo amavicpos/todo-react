@@ -37,7 +37,7 @@ Follow these steps to set up the To-DoList application locally:
 
 ## Usage
 
-To-DoList provides functionality to analyse data of meteorites. Here are some common actions users can perform:
+To-DoList provides functionality to save tasks. Here are some common actions users can perform:
 
 - **Create**.
 - **Check**.
