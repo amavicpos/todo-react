@@ -27,13 +27,13 @@ Follow these steps to set up the To-DoList application locally:
    ```
 
 2. Run:
-  ```bash
-     npm run start
-  ```
+   ```bash
+   npm run start
+   ```
 or
-  ```bash
-     react-scripts start
-  ```
+   ```bash
+   react-scripts start
+   ```
 
 ## Usage
 
