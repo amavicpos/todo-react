@@ -23,7 +23,7 @@ Follow these steps to set up the To-DoList application locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/todo-react.git
+   git clone https://github.com/amavicpos/todo-react.git
    ```
 
 2. Run:
