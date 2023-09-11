@@ -30,10 +30,10 @@ Follow these steps to set up the To-DoList application locally:
    ```bash
    npm run start
    ```
-or
-   ```bash
-   react-scripts start
-   ```
+   or
+      ```bash
+      react-scripts start
+      ```
 
 ## Usage
 
